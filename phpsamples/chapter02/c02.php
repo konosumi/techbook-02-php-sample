@@ -1,20 +1,11 @@
 <?php
-class Sample {
-    // どんな変数でも受け入れる
-    static function echoUserId($id) {
-        echo "userId=".$id."\n<br>";
-    }
-
-    // 数値しか受け付けない
+class SampleHinting {
+    // 数値に"変換できるモノ"しか扱わない
     static function echoUserIdTypeHinting(int $id) {
         echo "userId=".$id."\n<br>";
     }
 }
 
 $sampleId = '123abcde';
-
-// userId=abcde
-Sample::echoUserId($sampleId);
-
 // userId=123
-Sample::echoUserIdTypeHinting($sampleId);
+SampleHinting::echoUserIdTypeHinting($sampleId);
