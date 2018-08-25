@@ -1,21 +1,25 @@
 <?php
 // ルーティング設定
-// キーと値が同じ配列を作る => ['/chapter01/01' => '/chapter01/01']
+// array_combineは、キーと値が同じ配列を作っているだけです。
 $routeConfig = array_combine(routingPath(), routingPath());
 $uri = $_SERVER['REQUEST_URI'];
 
-// ルーティング設定に搭載された、正規のURI以外を弾きます。
+// ルーティング設定に搭載された、正規のURL(URI)以外を弾きます。
 if (!isset($routeConfig[$uri])) {
     header("HTTP/1.0 404 Not Found");
     return;
 }
 
-// "/var/www/sample/phpsamples/phpinfo.php"のようなパスになります。
-//var_dump(realpath(__DIR__.'/../phpsamples'.$routeConfig[$uri].'.php'));
-
 // phpsamplesの下にある、パスに対応したPHPファイルを呼び出します。
-// ルーティングエンジンのリストに載っているパスに限定されているため、安全に呼び出すことができます。
-require(__DIR__.'/../phpsamples'.$routeConfig[$uri].'.php');
+// 呼び出しは、ルーティングエンジンに掲載されているパス(PHPファイル)に限定します。
+$path = realpath(__DIR__.'/../phpsamples'.$routeConfig[$uri].'.php');
+if ($path) {
+    require($path);
+} else {
+    // ルーティングを適切にメンテナンスしていれば、ここにくることはない
+    header("HTTP/1.0 500 Internal Server Error");
+    return;
+}
 
 // アクセスを受け付けるパスの一覧を返す
 function routingPath() {
