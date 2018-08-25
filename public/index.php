@@ -11,6 +11,13 @@ $routingPath = [
     '/chapter02/c03',
     '/chapter02/c04',
     '/chapter02/c05',
+    '/chapter03/c01',
+    '/chapter03/c02',
+    '/chapter03/c03',
+    '/chapter04/c01',
+    '/chapter04/c02',
+    '/chapter04/c03',
+    '/chapter04/c04',
 ];
 // Like a ['/chapter01/01' => '/chapter01/01']
 $routeConfig = array_combine($routingPath, $routingPath);
