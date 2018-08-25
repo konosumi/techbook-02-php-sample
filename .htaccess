@@ -1,7 +1,0 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine on
-    RewriteBase /
-    # 全てのアクセスをindex.phpに集約する
-    # 実際は、CSSへのアクセスであれば集約しないなどの設定を追加することが多いです。
-    RewriteRule ^(.*)$ index.php [L]
-</IfModule>
