@@ -1,4 +1,4 @@
-php-7.2.9:
+apache-php-7.2.9:
   build: .
   ports:
     - "8080:80"
