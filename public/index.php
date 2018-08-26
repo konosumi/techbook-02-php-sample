@@ -24,32 +24,16 @@ if ($path) {
 function routingPath() {
     return [
         '/phpinfo',
+        // 型宣言
         '/chapter03/s01-typehinting',
         '/chapter03/s02-weakhinting',
         '/chapter03/s03-stronghinting',
         '/chapter03/s04-classandnull',
+        // 変数のスコープ
         '/chapter04/s01-localscope',
+        // 新しい演算子
         '/chapter05/s01-nulloperator',
         '/chapter05/s02-elvisoperator',
         '/chapter05/s03-compareoperator',
-        /*
-        '/chapter03/s01-declare-error',
-        '/chapter03/s02-namespace',
-        '/chapter01/c02',
-        '/chapter01/c03/c03',
-        '/chapter01/c04',
-        '/chapter02/c01',
-        '/chapter02/c02',
-        '/chapter02/c03',
-        '/chapter02/c04',
-        '/chapter02/c05',
-        '/chapter03/c01',
-        '/chapter03/c02', 
-        '/chapter03/c03',
-        '/chapter04/c01',
-        '/chapter04/c02',
-        '/chapter04/c03',
-        '/chapter04/c04',
-        */
     ];
 }
