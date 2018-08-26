@@ -29,6 +29,9 @@ function routingPath() {
         '/chapter03/s03-stronghinting',
         '/chapter03/s04-classandnull',
         '/chapter04/s01-localscope',
+        '/chapter05/s01-nulloperator',
+        '/chapter05/s02-elvisoperator',
+        '/chapter05/s03-compareoperator',
         /*
         '/chapter03/s01-declare-error',
         '/chapter03/s02-namespace',
