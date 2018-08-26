@@ -35,5 +35,10 @@ function routingPath() {
         '/chapter05/s01-nulloperator',
         '/chapter05/s02-elvisoperator',
         '/chapter05/s03-compareoperator',
+        // 名前空間
+        '/chapter06/s01-declare-error',
+        '/chapter06/s02-namespace',
+        '/chapter06/deep/s03-deepspace',
+        '/chapter06/s04-use',
     ];
 }

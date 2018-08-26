@@ -1,6 +1,6 @@
 <?php
 // 名前空間を宣言します。これから定義するクラス(や関数)に、住所を与えます。
-namespace chapter03;
+namespace chapter06;
 
 class DateTime {
     function __construct() { }
@@ -12,7 +12,7 @@ class DateTime {
 $datetime = new DateTime();
 echo $datetime->example()."\n<br>";
 // 2. 住所をはじめから記述する形式(ルート相対)
-$datetime = new \chapter03\DateTime();
+$datetime = new \chapter06\DateTime();
 echo $datetime->example()."\n<br>";
 
 // 本来のPHPのDateTimeを使う場合は、先頭にバックスラッシュを付けます
