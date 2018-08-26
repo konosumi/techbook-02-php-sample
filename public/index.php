@@ -40,5 +40,7 @@ function routingPath() {
         '/chapter06/s02-namespace',
         '/chapter06/deep/s03-deepspace',
         '/chapter06/s04-use',
+        '/chapter07/s01-use-autoload',
+        '/chapter07/s02-use-autoload-auto',
     ];
 }
