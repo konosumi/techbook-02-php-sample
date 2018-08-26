@@ -24,7 +24,8 @@ if ($path) {
 function routingPath() {
     return [
         '/phpinfo',
-        '/chapter01/c01',
+        '/chapter03/01-declare-error',
+        /*
         '/chapter01/c02',
         '/chapter01/c03/c03',
         '/chapter01/c04',
@@ -40,5 +41,6 @@ function routingPath() {
         '/chapter04/c02',
         '/chapter04/c03',
         '/chapter04/c04',
+        */
     ];
 }
