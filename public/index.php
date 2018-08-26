@@ -40,7 +40,10 @@ function routingPath() {
         '/chapter06/s02-namespace',
         '/chapter06/deep/s03-deepspace',
         '/chapter06/s04-use',
+        // オートロード
         '/chapter07/s01-use-autoload',
         '/chapter07/s02-use-autoload-auto',
+        // コンポーザー
+        '/chapter08/s01-naokihanzawa',
     ];
 }
