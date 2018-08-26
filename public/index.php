@@ -24,9 +24,11 @@ if ($path) {
 function routingPath() {
     return [
         '/phpinfo',
+        '/chapter03/s01-typehinting',
+        '/chapter03/s02-weakhinting',
+        /*
         '/chapter03/s01-declare-error',
         '/chapter03/s02-namespace',
-        /*
         '/chapter01/c02',
         '/chapter01/c03/c03',
         '/chapter01/c04',

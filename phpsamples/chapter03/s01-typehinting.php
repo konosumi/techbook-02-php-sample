@@ -1,18 +1,17 @@
 <?php
 class SampleHinting {
-    // どんな変数でも受け入れる
-    static function echoUserId($userId) {
-        echo "userId=".htmlspecialchars($userId)."\n<br>";
+    // 普通の関数、自由に引数を受け入れます。
+    public static function echoUserId($userId) {
+        echo "userId=".htmlspecialchars($userId, ENT_QUOTES)."\n<br>";
     }
 
-    // 数値しか受け付けない
-    static function echoUserIdTypeHinting(int $userId) {
+    // 整数を受け取ります。
+    public static function echoUserIdTypeHinting(int $userId) {
         echo "userId=".$userId."\n<br>";
     }
 }
 
 $sampleUserId = 'abcde';
-
 // userId=abcde
 SampleHinting::echoUserId($sampleUserId);
 

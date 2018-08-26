@@ -1,7 +1,16 @@
 <?php
-// 住所が長いと感じたら、エイリアスを定義することで省略できる
-use \DateTime as Dtm;
-//use \chapter01\DateTime as Ch01Dtm;
+// 強い型付けを使用する
+declare(strict_types=1);
 
-$datetime = new Dtm();
-echo $datetime->format('Y-m-d H:i:s');
+class SampleHinting {
+    // 数値しか扱わない
+    static function echoUserIdTypeHinting(int $id) {
+        echo "userId=".$id."\n<br>";
+    }
+}
+
+$sampleId = '1';
+// Fatal error: Uncaught TypeError: Argument 1 passed to
+// SampleHinting::echoUserIdTypeHinting()
+// must be of the type integer, string given, called 
+SampleHinting::echoUserIdTypeHinting($sampleId);
