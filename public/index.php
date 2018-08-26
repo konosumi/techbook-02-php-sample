@@ -26,6 +26,8 @@ function routingPath() {
         '/phpinfo',
         '/chapter03/s01-typehinting',
         '/chapter03/s02-weakhinting',
+        '/chapter03/s03-stronghinting',
+        '/chapter03/s04-classandnull',
         /*
         '/chapter03/s01-declare-error',
         '/chapter03/s02-namespace',

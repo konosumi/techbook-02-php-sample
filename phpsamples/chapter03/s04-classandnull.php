@@ -1,8 +1,13 @@
 <?php
 class SampleHinting {
     // クラスインスタンスも型宣言することができる
-    static function echoDate(\DateTime $datetime) {
+    public static function echoDate(\DateTime $datetime) {
         echo $datetime->format('Y-m-d');
+    }
+
+    // 先頭にはてなを付けると、NULLもしくは\DateTimeになります。
+    public static function echoDateNull(?\DateTime $datetime) {
+        if ($datetime) { echo $datetime->format('Y-m-d'); }
     }
 }
 

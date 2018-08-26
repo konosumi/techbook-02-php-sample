@@ -3,14 +3,13 @@
 declare(strict_types=1);
 
 class SampleHinting {
-    // 数値しか扱わない
-    static function echoUserIdTypeHinting(int $id) {
-        echo "userId=".$id."\n<br>";
+    // 整数しか扱わない
+    public static function echoUserIdTypeHinting(int $userId) {
+        echo "userId=".$userId."\n<br>";
     }
 }
 
-$sampleId = '123abcde';
 // Fatal error: Uncaught TypeError: Argument 1 passed to
 // SampleHinting::echoUserIdTypeHinting()
 // must be of the type integer, string given, called 
-SampleHinting::echoUserIdTypeHinting($sampleId);
+SampleHinting::echoUserIdTypeHinting('123abcde');
