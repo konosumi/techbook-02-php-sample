@@ -37,13 +37,13 @@ function routingPath() {
         '/chapter05/s03-compareoperator',
         '/chapter05/s05-constantarray',
         // 名前空間
-        '/chapter06/s01-declare-error',
+        '/chapter06/s01-declareerror',
         '/chapter06/s02-namespace',
         '/chapter06/deep/s03-deepspace',
         '/chapter06/s04-use',
         // オートロード
-        '/chapter07/s01-use-autoload',
-        '/chapter07/s02-use-autoload-auto',
+        '/chapter07/s01-autoload',
+        '/chapter07/s02-autoloadauto',
         // コンポーザー
         '/chapter08/s01-naokihanzawa',
     ];
