@@ -31,10 +31,9 @@ function routingPath()
         '/chapter102/s02-instance-or-null',
         '/chapter102/s03-weak',
         '/chapter102/s04-strong',
-
-        /*
         // 変数のスコープ
-        '/chapter04/s01-localscope',
+        '/chapter103/s01-local-scope',
+        /*
         // 新しい演算子
         '/chapter05/s01-nulloperator',
         '/chapter05/s02-elvisoperator',
