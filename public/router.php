@@ -33,10 +33,6 @@ function routingPath()
         '/chapter102/s04-strong',
 
         /*
-        // 型宣言
-        '/chapter03/s02-weakhinting',
-        '/chapter03/s03-stronghinting',
-        '/chapter03/s04-classandnull',
         // 変数のスコープ
         '/chapter04/s01-localscope',
         // 新しい演算子
