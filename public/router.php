@@ -1,26 +1,26 @@
 <?php
 // ルーティング設定の作成(キーと値が同じ配列を作ってます)
-$routeConfig = array_combine(routingPath(), routingPath());
-// ルーティングはURI(URL)を基に行ないます。
+$routerConfig = array_combine(routingPath(), routingPath());
+// ルーティングはURIを基に行ないます。
 $uri = $_SERVER['REQUEST_URI'];
 
-// ルーティング設定にない、正規のURI(URL)以外を弾きます。
-if (!isset($routeConfig[$uri])) {
+// ルーティング設定に存在しない、不正なURIを弾きます。
+if (!isset($routerConfig[$uri])) {
     header("HTTP/1.0 404 Not Found");
     return;
 }
 
-// phpsamplesの下にある、パスに対応したPHPファイルを呼び出します。
-$path = realpath(__DIR__.'/../phpsamples'.$routeConfig[$uri].'.php');
-if ($path) {
-    require($path);
+// controllerの下にある、パスに対応したPHPファイルを呼び出します。
+$controllerPath = realpath(__DIR__.'/../controller'.$routerConfig[$uri].'.php');
+if ($controllerPath) {
+    require($controllerPath);
 } else {
-    // ルーティングを適切にメンテナンスしていれば、ここには来ない
+    // ルーティングのパス一覧を適切にメンテナンスしていれば、ここに来ることはない
     header("HTTP/1.0 500 Internal Server Error");
     return;
 }
 
-// アクセスを受け付けるパスの一覧を返す
+// アクセスを受け付けるパス一覧を返す
 function routingPath() {
     return [
         '/phpinfo',
