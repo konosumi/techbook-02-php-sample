@@ -29,6 +29,7 @@ function routingPath()
         // 型宣言
         '/chapter102/s01-basic',
         '/chapter102/s02-instance-or-null',
+        '/chapter102/s03-weak',
 
         /*
         // 型宣言
