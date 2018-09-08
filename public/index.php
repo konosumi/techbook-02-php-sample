@@ -24,6 +24,7 @@ if ($path) {
 function routingPath() {
     return [
         '/phpinfo',
+        /*
         // 型宣言
         '/chapter03/s01-typehinting',
         '/chapter03/s02-weakhinting',
@@ -47,5 +48,6 @@ function routingPath() {
         '/chapter07/s02-autoloadauto',
         // コンポーザー
         '/chapter08/s01-naokihanzawa',
+        */
     ];
 }
