@@ -28,6 +28,7 @@ function routingPath()
         '/phpinfo',
         // 型宣言
         '/chapter102/s01-basic',
+        '/chapter102/s02-instance-or-null',
 
         /*
         // 型宣言
