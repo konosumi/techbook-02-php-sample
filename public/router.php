@@ -30,6 +30,7 @@ function routingPath()
         '/chapter102/s01-basic',
         '/chapter102/s02-instance-or-null',
         '/chapter102/s03-weak',
+        '/chapter102/s04-strong',
 
         /*
         // 型宣言
