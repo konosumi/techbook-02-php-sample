@@ -1,5 +1,5 @@
 <?php
-// クラスインスタントやNULLも許容する型宣言のサンプルクラス
+// クラスインスタンスやNULLも許容する型宣言のサンプルクラス
 final class SampleClassTypeDeclaration
 {
     // クラスインスタンス(オブジェクト)も型宣言することができる
