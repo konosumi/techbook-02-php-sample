@@ -1,7 +1,7 @@
 <?php
+// ローカルスコープ
 function localscope()
 {
-    // ローカルスコープ
     // 関数内で宣言された変数は、関数内でしか生存しません。
     $str = 'abcde';
     return $str;
