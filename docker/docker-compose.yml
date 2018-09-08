@@ -1,7 +1,7 @@
 apache-php-7.2.9:
   build: .
   ports:
-    - "8080:80"
+    - "8000:80"
   volumes:
     - "../:/var/www/sample"
     - "./000-default.conf:/etc/apache2/sites-available/000-default.conf"
