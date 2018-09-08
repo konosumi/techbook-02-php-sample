@@ -26,9 +26,11 @@ function routingPath()
 {
     return [
         '/phpinfo',
+        // 型宣言
+        '/chapter102/s01-basic',
+
         /*
         // 型宣言
-        '/chapter03/s01-typehinting',
         '/chapter03/s02-weakhinting',
         '/chapter03/s03-stronghinting',
         '/chapter03/s04-classandnull',
