@@ -1,5 +1,5 @@
 <?php
-namespace chapter07;
+namespace chapter106;
 
 class Sample {
     function hello() {

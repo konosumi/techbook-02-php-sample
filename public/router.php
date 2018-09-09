@@ -49,9 +49,9 @@ function routingPath()
         '/chapter105/s03/deep-namespace',
         '/chapter105/s04-use',
         '/chapter105/s05-function-define',
-        /*
         // オートロード
-        '/chapter07/s01-autoload',
+        '/chapter106/s01-autoload',
+        /*
         '/chapter07/s02-autoloadauto',
         // コンポーザー
         '/chapter08/s01-naokihanzawa',
