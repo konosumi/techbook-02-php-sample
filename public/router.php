@@ -43,9 +43,9 @@ function routingPath()
         '/chapter104/s05-anonymous-class',
         '/chapter104/s06-list-array',
         '/chapter104/s07-assert',
-        /*
         // 名前空間
-        '/chapter06/s01-declareerror',
+        '/chapter105/s01-declare-error',
+        /*
         '/chapter06/s02-namespace',
         '/chapter06/deep/s03-deepspace',
         '/chapter06/s04-use',

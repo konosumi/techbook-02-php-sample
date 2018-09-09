@@ -1,0 +1,11 @@
+<?php
+// クラス名の衝突
+// Fatal error: Cannot declare class DateTime,
+// because the name is already in use in 
+class DateTime {
+    function __construct() { }
+    public function example() { return "My DateTime Class"; }
+}
+
+$datetime = new DateTime();
+echo $datetime->example();
