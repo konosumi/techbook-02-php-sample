@@ -1,4 +1,7 @@
 <?php
+// assertに失敗したら例外をスローする
+ini_set('assert.exception', 1);
+
 // assertによる、配列内に想定する添字があることの担保
 function assertTest(array $array) {
     assert(array_key_exists('c', $array));
@@ -10,7 +13,8 @@ assertTest([
     "c" => 3,
 ]);
 
-// Warning: assert(): assert(array_key_exists('c', $array)) failed
+// Fatal error: Uncaught AssertionError:
+// assert(array_key_exists('c', $array)) 
 assertTest([
     "a" => 1,
     "b" => 2,
