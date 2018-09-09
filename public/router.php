@@ -32,6 +32,7 @@ function routingPath()
         '/chapter102/s03-weak',
         '/chapter102/s04-strong',
         '/chapter102/s05-return-type',
+        '/chapter102/s06-try-catch',
         // 変数のスコープ
         '/chapter103/s01-local-scope',
         /*
