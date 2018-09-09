@@ -51,8 +51,8 @@ function routingPath()
         '/chapter105/s05-function-define',
         // オートロード
         '/chapter106/s01-autoload',
+        '/chapter106/s02-auto-autoload',
         /*
-        '/chapter07/s02-autoloadauto',
         // コンポーザー
         '/chapter08/s01-naokihanzawa',
         */

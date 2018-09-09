@@ -2,23 +2,23 @@
 spl_autoload_register(function ($class_name) {
     // controller下のファイルを自動読み込みするオートロードを作ってみます。
     // (つまり、今いる場所の１回層上のディレクトリを起点とする)
-    $basePath = __DIR__.'../';
     $ds = DIRECTORY_SEPARATOR;
+    $basePath = realpath(__DIR__.$ds.'..');
 
     // 名前空間を含めたクラスのパスから、読み込むファイルのパスを自動決定する
     // 名前空間はバックスラッシュで区切られているので、
     // それをパスに置き換えてあげるとファイルパスになるという作戦です。
-    $autoloadFile = realpath($basePath.implode($ds, explode('\\', $class_name)).'.php');
+    $autoloadFile = realpath($basePath.$ds.implode($ds, explode('\\', $class_name)).'.php');
 
     // strposは、ファイルパスの先頭が$basePathであることを確認しています。
-    // 念の為のディレクトリトラバーサル(../../など)対策です。
+    // 念の為のディレクトリトラバーサル(不正な../../などの検知)対策です。
     if ($autoloadFile && strpos($autoloadFile, $basePath) === 0) {
-        // controller/chapter106/Sample.php;
+        // controller/chapter106/Sample.phpのようなパスになっています。
+        //var_dump($autoloadFile);
         include($autoloadFile);
     }
 });
 
-// 新しいクラスを読み込みます: \chapter106\Sample 
 // Welcome to autoload! 
 $sample = new \chapter106\Sample();
 $sample->hello();
