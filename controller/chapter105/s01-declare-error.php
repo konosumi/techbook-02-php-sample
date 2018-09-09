@@ -4,7 +4,7 @@
 // because the name is already in use in 
 final class DateTime
 {
-    function __construct()
+    public function __construct()
     {
     }
 
