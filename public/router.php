@@ -46,8 +46,8 @@ function routingPath()
         // 名前空間
         '/chapter105/s01-declare-error',
         '/chapter105/s02-namespace',
+        '/chapter105/s03/deep-namespace',
         /*
-        '/chapter06/deep/s03-deepspace',
         '/chapter06/s04-use',
         // オートロード
         '/chapter07/s01-autoload',
