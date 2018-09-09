@@ -35,9 +35,9 @@ function routingPath()
         '/chapter102/s06-try-catch',
         // 変数のスコープ
         '/chapter103/s01-local-scope',
-        /*
         // 新しい演算子
-        '/chapter05/s01-nulloperator',
+        '/chapter104/s01-null-operator',
+        /*
         '/chapter05/s02-elvisoperator',
         '/chapter05/s03-compareoperator',
         '/chapter05/s04-constantarray',
