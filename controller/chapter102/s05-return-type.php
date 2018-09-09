@@ -3,6 +3,7 @@ declare(strict_types=1);
 // 戻り値の型宣言
 final class SampleReturnType
 {
+    // 整数、もしくはNULLを返却する関数であることを宣言しています
     public static function addNumberReturn(int $number): ?int
     {
         // 正常に動く
@@ -23,6 +24,7 @@ final class SampleReturnType
 echo SampleReturnType::addNumberReturn(1)."\n<br>";
 // 3が表示される
 echo SampleReturnType::addNumberReturn(2)."\n<br>";
+
 // Fatal error: Uncaught TypeError: Return value of
 // SampleReturnType::addNumberReturn()
 // must be of the type integer or null, boolean returned in 
