@@ -47,7 +47,8 @@ function routingPath()
         '/chapter105/s01-declare-error',
         '/chapter105/s02-namespace',
         '/chapter105/s03/deep-namespace',
-        '/chapter06/s04-use',
+        '/chapter105/s04-use',
+        '/chapter105/s05-function-define',
         /*
         // オートロード
         '/chapter07/s01-autoload',
