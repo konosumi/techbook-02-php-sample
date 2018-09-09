@@ -2,10 +2,11 @@
 // まだ読み込みまれていないクラスや関数を使おうとした時に実行される
 spl_autoload_register(function ($class_name) {
     echo '新しいクラス(関数)を読み込みます: '.$class_name."\n<br>";
+    $ds = DIRECTORY_SEPARATOR;
 
     // クラスの名前空間を含めた住所と実際のファイルの場所を対応させる
     $autoloadConfig = [
-        'chapter106\Sample' => __DIR__.'/Sample.php'
+        'chapter106\Sample' => __DIR__.$ds.'Sample.php'
     ];
 
     // クラスが定義されているPHPファイルを読み込むことで、使えるようにする

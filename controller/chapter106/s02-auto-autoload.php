@@ -8,13 +8,14 @@ spl_autoload_register(function ($class_name) {
     // 名前空間を含めたクラスのパスから、読み込むファイルのパスを自動決定する
     // 名前空間はバックスラッシュで区切られているので、
     // それをパスに置き換えてあげるとファイルパスになるという作戦です。
-    $autoloadFile = realpath($basePath.$ds.implode($ds, explode('\\', $class_name)).'.php');
+    $autoloadFile = realpath($basePath.$ds
+        .implode($ds, explode('\\', $class_name)).'.php');
 
     // strposは、ファイルパスの先頭が$basePathであることを確認しています。
     // 念の為のディレクトリトラバーサル(不正な../../などの検知)対策です。
     if ($autoloadFile && strpos($autoloadFile, $basePath) === 0) {
         // controller/chapter106/Sample.phpのようなパスになっています。
-        //var_dump($autoloadFile);
+        // var_dump($autoloadFile);
         include($autoloadFile);
     }
 });
