@@ -1,6 +1,5 @@
 <?php
 // 宇宙船演算子
-// SEE: http://php.net/manual/ja/migration70.new-features.php
 
 // 整数値
 echo 1 <=> 1; // 0

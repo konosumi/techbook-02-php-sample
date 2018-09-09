@@ -37,11 +37,11 @@ function routingPath()
         '/chapter103/s01-local-scope',
         // 新しい演算子
         '/chapter104/s01-null-operator',
+        '/chapter104/s02-elvis-operator',
+        '/chapter104/s03-compare-operator',
+        '/chapter104/s04-const-array',
+        '/chapter104/s05-anonymous-class',
         /*
-        '/chapter05/s02-elvisoperator',
-        '/chapter05/s03-compareoperator',
-        '/chapter05/s04-constantarray',
-        '/chapter05/s05-anonymousclass',
         // 名前空間
         '/chapter06/s01-declareerror',
         '/chapter06/s02-namespace',
