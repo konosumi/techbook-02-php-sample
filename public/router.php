@@ -41,6 +41,7 @@ function routingPath()
         '/chapter104/s03-compare-operator',
         '/chapter104/s04-const-array',
         '/chapter104/s05-anonymous-class',
+        '/chapter104/s06-list-array',
         /*
         // 名前空間
         '/chapter06/s01-declareerror',
