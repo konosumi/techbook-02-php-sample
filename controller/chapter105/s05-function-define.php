@@ -1,7 +1,7 @@
 <?php
 namespace chapter105;
 
-// 関数の名前空間の応用
+// 関数の名前空間への応用
 function sample(){
     echo "Sample function!\n<br>";
 }
