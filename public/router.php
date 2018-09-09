@@ -45,8 +45,8 @@ function routingPath()
         '/chapter104/s07-assert',
         // 名前空間
         '/chapter105/s01-declare-error',
+        '/chapter105/s02-namespace',
         /*
-        '/chapter06/s02-namespace',
         '/chapter06/deep/s03-deepspace',
         '/chapter06/s04-use',
         // オートロード
