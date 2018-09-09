@@ -20,7 +20,7 @@ spl_autoload_register(function ($class_name) {
  * Welcome to autoload! 
  * Welcome to autoload! 
  */ 
-$sample = new \chapter106\Sample;
+$sample = new \chapter106\Sample();
 $sample->hello();
-$sample2 = new \chapter106\Sample;
+$sample2 = new \chapter106\Sample();
 $sample2->hello();
