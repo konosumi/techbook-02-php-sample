@@ -52,9 +52,7 @@ function routingPath()
         // オートロード
         '/chapter106/s01-autoload',
         '/chapter106/s02-auto-autoload',
-        /*
         // コンポーザー
-        '/chapter08/s01-naokihanzawa',
-        */
+        '/chapter107/s01-naoki-hanzawa',
     ];
 }
