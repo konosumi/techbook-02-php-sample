@@ -18,6 +18,11 @@ final class SampleReturnType
         // 戻り値が数値でないのでエラーになる
         return false;
     }
+
+    // (PHP7.1)何も返らないことを保証する書き方もある
+    public static function voidReturn(int $number): void
+    {
+    }
 }
 
 // 何も表示されない(NULLが表示される)
