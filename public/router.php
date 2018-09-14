@@ -54,5 +54,7 @@ function routingPath()
         '/chapter106/s02-auto-autoload',
         // コンポーザー
         '/chapter107/s01-naoki-hanzawa',
+        // 正規表現
+        '/chapter120/s01-preg-match-delimiter',
     ];
 }
