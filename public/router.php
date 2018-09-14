@@ -56,5 +56,6 @@ function routingPath()
         '/chapter107/s01-naoki-hanzawa',
         // 正規表現
         '/chapter110/s01-preg-match-delimiter',
+        '/chapter110/s02-preg-quote',
     ];
 }
