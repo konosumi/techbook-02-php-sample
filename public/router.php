@@ -63,5 +63,6 @@ function routingPath()
         // 配列
         '/chapter111/s01-array-merge',
         '/chapter111/s02-array-mix',
+        '/chapter111/s03-no-name-function',
     ];
 }
