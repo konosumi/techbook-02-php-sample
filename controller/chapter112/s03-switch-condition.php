@@ -16,7 +16,7 @@ switch ($val) {
         var_dump("Hit A!");
         break;
     case 0: 
-        // 本来ならここに来るはずなのに
+        // 本来ならここに来るはず！
         var_dump("Hit 0!");
         break;
     default: 
