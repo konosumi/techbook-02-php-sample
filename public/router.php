@@ -60,5 +60,8 @@ function routingPath()
         '/chapter110/s03-preg-match-multi',
         '/chapter110/s04-preg-match-small-wide',
         '/chapter110/s05-preg-match-speed',
+        // 配列
+        '/chapter111/s01-array-merge',
+        '/chapter111/s02-array-mix',
     ];
 }
