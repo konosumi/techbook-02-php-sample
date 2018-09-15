@@ -64,5 +64,8 @@ function routingPath()
         '/chapter111/s01-array-merge',
         '/chapter111/s02-array-mix',
         '/chapter111/s03-no-name-function',
+        // PHPの判定と比較
+        '/chapter112/s01-if-bool-condition',
+        '/chapter112/s02-if-string-zero',
     ];
 }
