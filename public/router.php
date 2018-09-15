@@ -69,5 +69,8 @@ function routingPath()
         '/chapter112/s02-if-string-zero',
         '/chapter112/s03-switch-condition',
         '/chapter112/s04-int-cast-condition',
+        '/chapter112/s05-strict-compare',
+        '/chapter112/s06-strict-in-array',
+        '/chapter112/s07-float-compare',
     ];
 }
