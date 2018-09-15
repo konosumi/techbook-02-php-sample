@@ -57,5 +57,6 @@ function routingPath()
         // 正規表現
         '/chapter110/s01-preg-match-delimiter',
         '/chapter110/s02-preg-quote',
+        '/chapter110/s03-preg-match-multi',
     ];
 }
