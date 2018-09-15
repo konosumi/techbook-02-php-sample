@@ -60,6 +60,7 @@ function routingPath()
         '/chapter110/s03-preg-match-multi',
         '/chapter110/s04-preg-match-small-wide',
         '/chapter110/s05-preg-match-speed',
+        '/chapter110/s06-preg-match-jp',
         // 配列
         '/chapter111/s01-array-merge',
         '/chapter111/s02-array-mix',
@@ -72,5 +73,9 @@ function routingPath()
         '/chapter112/s05-strict-compare',
         '/chapter112/s06-strict-in-array',
         '/chapter112/s07-float-compare',
+        // エラーと例外
+        '/chapter113/s01-error-exception-basic',
+        '/chapter113/s02-exception-basic',
+        '/chapter113/s03-exception-handler',
     ];
 }
