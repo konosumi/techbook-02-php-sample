@@ -79,5 +79,7 @@ function routingPath()
         '/chapter113/s03-exception-handler',
         '/chapter113/s04-set-error-handler',
         '/chapter113/s05-debug-print-backtrace',
+        // テンプレートエンジン
+        '/chapter116/s01-smarty',
     ];
 }
