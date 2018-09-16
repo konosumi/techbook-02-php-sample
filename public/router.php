@@ -77,5 +77,7 @@ function routingPath()
         '/chapter113/s01-error-exception-basic',
         '/chapter113/s02-exception-basic',
         '/chapter113/s03-exception-handler',
+        '/chapter113/s04-set-error-handler',
+        '/chapter113/s05-debug-print-backtrace',
     ];
 }
