@@ -6,34 +6,35 @@ declare(strict_types=1);
 
 final class SampleReturnType
 {
-    // 整数もしくはNULLを返す関数であることを宣言しています
-    public static function addNumberReturn(int $number): ?int
+    // 整数もしくはNULLを返す関数であることを宣言する
+    public static function numberNullReturn(int $number): ?int
     {
-        // 正常に動く
         if ($number === 1) {
             return null;
         }
-        // 正常に動く
         if ($number === 2) {
             return $number + 1;
         }
 
-        // 戻り値が数値でないのでエラーになる
+        // 戻り値が数値ではないのでエラーになる
         return false;
     }
 
-    // (PHP7.1)何も返らないことを保証する書き方もある
+    // (PHP7.1)何も返らないことを保証する
     public static function voidReturn(int $number): void
     {
     }
 }
 
 // 何も表示されない(NULLが表示される)
-echo SampleReturnType::addNumberReturn(1)."\n<br>";
+echo SampleReturnType::numberNullReturn(1).PHP_EOL;
 // 3が表示される
-echo SampleReturnType::addNumberReturn(2)."\n<br>";
+echo SampleReturnType::numberNullReturn(2).PHP_EOL;
 
-// Fatal error: Uncaught TypeError: Return value of
-// SampleReturnType::addNumberReturn()
-// must be of the type integer or null, boolean returned in 
-echo SampleReturnType::addNumberReturn(3)."\n<br>";
+/**
+ * 想定外の型が返却されてしまった！
+ * Fatal error: Uncaught TypeError: Return value of
+ * SampleReturnType::numberNullReturn()
+ * must be of the type integer or null, boolean returned in
+ */
+echo SampleReturnType::numberNullReturn(3).PHP_EOL;
