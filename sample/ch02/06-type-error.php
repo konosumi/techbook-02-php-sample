@@ -19,6 +19,7 @@ try {
 
     // Class: TypeError
     echo 'Class: '.get_class($e).PHP_EOL;
+
     // Return value of sample()
     // must be of the type integer, boolean returned
     echo $e->getMessage().PHP_EOL;
