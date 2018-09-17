@@ -6,6 +6,7 @@ declare(strict_types=1);
 
 final class SampleReturnType
 {
+    // (PHP7.1)nullableはPHP7.1からです
     // 整数もしくはNULLを返す関数であることを宣言する
     public static function numberNullReturn(int $number): ?int
     {
