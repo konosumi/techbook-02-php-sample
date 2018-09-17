@@ -1,4 +1,7 @@
 <?php
+/**
+ * filter_varによるフィルタリングの例
+ */
 $var = filter_var('755x', FILTER_VALIDATE_INT);
 // bool(false)
 var_dump($var);
