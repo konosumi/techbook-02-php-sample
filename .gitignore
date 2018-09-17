@@ -1,2 +1,5 @@
 # Composer
 vendor/
+
+# Smarty Cache
+templates_c/
