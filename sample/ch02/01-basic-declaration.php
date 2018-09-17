@@ -1,6 +1,6 @@
 <?php
 /**
- * 型宣言の基本的なサンプル
+ * 型宣言の基本的な使い方
  */
 final class SampleTypeDeclaration
 {
