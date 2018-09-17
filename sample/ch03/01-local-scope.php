@@ -14,3 +14,4 @@ localscope();
 
 // str is not alive
 echo isset($str) ? 'str is alive.' : 'str is not alive.';
+echo PHP_EOL;
