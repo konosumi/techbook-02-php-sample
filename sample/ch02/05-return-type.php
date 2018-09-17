@@ -1,9 +1,12 @@
 <?php
+/**
+ * 関数の戻り値の型宣言
+ */
 declare(strict_types=1);
-// 戻り値の型宣言
+
 final class SampleReturnType
 {
-    // 整数、もしくはNULLを返却する関数であることを宣言しています
+    // 整数もしくはNULLを返す関数であることを宣言しています
     public static function addNumberReturn(int $number): ?int
     {
         // 正常に動く

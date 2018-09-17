@@ -10,7 +10,7 @@ final class SampleClassNullDeclaration
         echo $datetime->format('Y-m-d').PHP_EOL;
     }
 
-    // 型宣言の先頭にはてなマーク(?)を付けると、NULL値も許容します
+    // (PHP7.1)nullableな型 先頭にはてなマーク(?)を付けると、NULL値も許容します
     // NULLもしくはDateTimeという意味です
     public static function echoDateOrNull(?DateTime $datetime)
     {
