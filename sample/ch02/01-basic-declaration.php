@@ -17,10 +17,8 @@ final class SampleTypeDeclaration
     }
 }
 
-$sampleUserId = 'abcde';
-
 // userId=abcde
-SampleTypeDeclaration::echoUserId($sampleUserId);
+SampleTypeDeclaration::echoUserId('abcde');
 
 // userId=12345
 SampleTypeDeclaration::echoUserIdType(12345);
@@ -31,4 +29,4 @@ SampleTypeDeclaration::echoUserIdType(12345);
  * SampleTypeDeclaration::echoUserIdType()
  * must be of the type integer, string given, called in 
  */
-SampleTypeDeclaration::echoUserIdType($sampleUserId);
+SampleTypeDeclaration::echoUserIdType('abcde');
