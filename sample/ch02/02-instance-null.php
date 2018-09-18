@@ -35,4 +35,4 @@ SampleClassNullDeclaration::echoDateOrNull(null);
  * SampleClassNullDeclaration::echoDate()
  * must be an instance of DateTime, string given, called in
  */
-SampleClassNullDeclaration::echoDate("test");
+SampleClassNullDeclaration::echoDate('test');
