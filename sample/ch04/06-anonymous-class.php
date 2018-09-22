@@ -38,3 +38,7 @@ $controller = new class extends BaseBatchController
 // BaseBatchController: run()
 // AnonymousController: run()
 $controller->run();
+
+// オブジェクトのクラス名を取得すると、とても長い名前が返却されます
+// class@anonymous/[省略]/06-anonymous-class.php0x101df12ef
+echo get_class($controller).PHP_EOL;
