@@ -3,7 +3,7 @@
  * オートロードの基本形
  */
 
-// まだ読み込みまれていないクラスや関数を使おうとした時に、
+// まだ読み込まれていないクラスや関数を使おうとした時に、
 // 実行される関数を登録する
 spl_autoload_register(function ($classname) {
     echo '新しく読み込みます: '.$classname.PHP_EOL;
