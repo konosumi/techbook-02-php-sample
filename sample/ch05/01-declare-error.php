@@ -7,10 +7,6 @@
 // because the name is already in use in 
 final class DateTime
 {
-    public function __construct()
-    {
-    }
-
     public function example()
     {
         return "My DateTime Class";

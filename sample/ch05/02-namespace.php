@@ -9,10 +9,6 @@ namespace sample\ch05;
 
 // \sample\ch05\DateTimeというクラスパスになります
 final class DateTime {
-    function __construct()
-    {
-    }
-
     public function example()
     {
         return "My DateTime Class";

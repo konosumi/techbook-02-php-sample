@@ -1,4 +1,7 @@
 <?php
+/**
+ * useによるショートカット
+ */
 // 住所が長いと感じたら、エイリアスを定義することでショートカットできる
 use \DateTime as Dtm;
 //use \chapter105\s03\DateTime as Dtm;
