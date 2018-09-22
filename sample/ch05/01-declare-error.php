@@ -1,5 +1,8 @@
 <?php
-// クラス名の衝突
+/**
+ * 名前空間のない世界線におけるクラス名の衝突
+ */
+
 // Fatal error: Cannot declare class DateTime,
 // because the name is already in use in 
 final class DateTime
