@@ -10,7 +10,6 @@ final class DateTime {
         return "My DateTime Class";
     }
 }
-
 /**
  * エイリアスを定義することでショートカットできます
  * サンプルの都合上、変な位置でuseしてますが、
