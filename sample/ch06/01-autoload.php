@@ -9,7 +9,7 @@ spl_autoload_register(function ($classname) {
     echo '新しく読み込みます: '.$classname.PHP_EOL;
     $ds = DIRECTORY_SEPARATOR;
 
-    // クラスの名前空間を含めた住所と、実際のファイルを対応させます
+    // クラスの名前空間を含めた住所と、実際のファイルをマッピングします
     $autoloadConfig = [
         'sample\ch06\WelcomeAutoload' =>
             __DIR__.$ds.'WelcomeAutoload.php'
