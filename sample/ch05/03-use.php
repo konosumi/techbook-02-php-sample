@@ -2,13 +2,24 @@
 /**
  * useによるショートカット
  */
-// 住所が長いと感じたら、エイリアスを定義することでショートカットできる
-use \DateTime as Dtm;
-//use \chapter105\s03\DateTime as Dtm;
+namespace sample\ch05;
+
+final class DateTime {
+    public function example()
+    {
+        return "My DateTime Class";
+    }
+}
+
+/**
+ * エイリアスを定義することでショートカットできます
+ * サンプルの都合上、変な位置でuseしてますが、
+ * 実際はファイルの上で書くことが多いです
+ */
+use \sample\ch05\DateTime as Dtm;
 
 $datetime = new Dtm();
-// 2018-08-26
-echo $datetime->format('Y-m-d');
+echo $datetime->example().PHP_EOL;
 
 // おまけ：(PHP7)複数use
 // SEE: https://qiita.com/hnw/items/35dc3f54ec3358831cad
