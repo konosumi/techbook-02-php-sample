@@ -1,6 +1,6 @@
 <?php
 /**
- * 普通の例外(\Exception)
+ * ユーザー例外(\Exception)
  */
 final class SampleException extends \Exception {}
 
