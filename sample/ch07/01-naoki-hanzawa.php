@@ -5,7 +5,7 @@
  * require 'vendor/autoload.php';
  */
 
-// 実用レベルでは、基盤・上流クラス側で予めrequireしておきます
+// 実用レベルでは、基盤・上流側の処理で予めrequireしておきます
 // 今回はサンプルなので、暫定的にディレクトリを上って読み込ます
 require implode(DIRECTORY_SEPARATOR,
     [__DIR__, '..', '..', 'vendor', 'autoload.php']);
