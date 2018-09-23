@@ -18,6 +18,4 @@ switch (0) {
         // 本来ならここに来るはず
         echo '0 is 0'.PHP_EOL;
         break;
-    default: 
-        echo 'No hit!'.PHP_EOL;
 }
