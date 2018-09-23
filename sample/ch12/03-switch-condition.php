@@ -12,7 +12,6 @@ if (0 == 'A') {
 // 結果： 0 is A
 switch (0) {
     case 'A': 
-        // string(6) "Hit A!"
         echo '0 is A'.PHP_EOL;
         break;
     case 0: 
