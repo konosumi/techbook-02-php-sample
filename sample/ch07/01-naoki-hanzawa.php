@@ -10,8 +10,8 @@
 require implode(DIRECTORY_SEPARATOR,
     [__DIR__, '..', '..', 'vendor', 'autoload.php']);
 
-// 2 * 倍返し = 4 
-echo "2 * 倍返し = ".NaokiHanzawa::baigaeshida(2).PHP_EOL;
+// 2 * 倍返しだ！ = 4 
+echo "2 * 倍返しだ！ = ".NaokiHanzawa::baigaeshida(2).PHP_EOL;
 
 // 倍返しだ！倍返しだ！
 echo NaokiHanzawa::baigaeshida("倍返しだ！").PHP_EOL;
