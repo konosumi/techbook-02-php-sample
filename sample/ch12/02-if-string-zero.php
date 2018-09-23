@@ -10,5 +10,5 @@ if ($val) {
 }
 // 文字列として考えて、長さを判定すればヒットする
 if (strlen($val) > 0) {
-    echo "strlen: TRUE!".PHP_EOL;
+    echo "文字が入力されています".PHP_EOL;
 }
