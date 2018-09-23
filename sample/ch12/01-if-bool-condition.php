@@ -6,23 +6,23 @@
 
 // booleanのFALSE
 if (false) {
-    echo "Hit!\n<br>";
+    echo "TRUE!";
 }
 // intの0とfloatの0.0
 if (0 || 0.0) {
-    echo "Hit!\n<br>";
+    echo "TRUE!";
 }
 // 空の文字列と文字列の "0"
 if ("" || "0") {
-    echo "Hit!\n<br>";
+    echo "TRUE!";
 }
 // 要素数がゼロの配列
 if ([]) {
-    echo "Hit!\n<br>";
+    echo "TRUE!";
 }
 // 特別な値 NULL (値がセットされていない変数を含む)
 if (NULL) {
-    echo "Hit!\n<br>";
+    echo "TRUE!";
 }
 
 // 空のタグから作成された SimpleXML オブジェクト
@@ -31,5 +31,5 @@ $xml_string = <<<EOF
 <image />
 EOF;
 if (new SimpleXMLElement($xml_string)) {
-    echo "Hit!\n<br>";
+    echo "TRUE!";
 }
