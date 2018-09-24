@@ -15,7 +15,7 @@ $smarty = new Smarty();
 $smarty->escape_html = true;
 
 // テンプレートファイルがあるディレクトリの指定
-$smarty->setTemplateDir(__DIR__);
+$smarty->setTemplateDir(__DIR__.DIRECTORY_SEPARATOR.'template');
 
 // テンプレートに値を渡してみます
 $smarty->assign('hello', 'Hello, World!!');
