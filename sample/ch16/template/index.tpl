@@ -1,3 +1,4 @@
+{* 共通ヘッダーの読み込み *}
 {include file='_header.tpl' pagetitle="Smarty demo."}
 
 {if $hello}
@@ -10,4 +11,5 @@
 {/foreach}
 </ul>
 
+{* 共通フッターの読み込み *}
 {include file='_footer.tpl'}
