@@ -2,6 +2,6 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>{$title}</title>
+    <title>{$pagetitle}</title>
 </head>
 <body>

@@ -1,4 +1,4 @@
-{include file='_header.tpl' title="Smarty demo."}
+{include file='_header.tpl' pagetitle="Smarty demo."}
 
 {if $hello}
 <h1>{$hello}</h1>
@@ -10,4 +10,4 @@
 {/foreach}
 </ul>
 
-{include file='_footer.tpl' title="Smarty demo."}
+{include file='_footer.tpl'}
