@@ -14,6 +14,6 @@ var_dump(0 === '0');
 var_dump(0 == false); 
 var_dump(0 === false); 
 
-// bool(true) bool(false) 
+// bool(true) bool(true) 
 var_dump(0 == 0); 
 var_dump(0 === 0); 
